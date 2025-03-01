@@ -4,7 +4,7 @@ Welcome to the **Serviz Camp** landing page repository! This project serves as t
 
 ## 🚀 Overview
 
-Serviz Camp is a marketplace that bridges the gap between Serviz providers and customers, offering a seamless way to discover and hire skilled professionals. This landing page provides users with key information about the platform, its features, and a clear call to action for sign-ups.
+Serviz Camp is a marketplace that bridges the gap between Service providers and customers, offering a seamless way to discover and hire skilled professionals. This landing page provides users with key information about the platform, its features, and a clear call to action for sign-ups.
 
 ## 🛠 Tech Stack
 
