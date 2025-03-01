@@ -76,7 +76,7 @@ This project is licensed under the **MIT License**. Feel free to use and modify 
 
 For any inquiries, feel free to reach out:
 - **Email:** sundaystanley56@gmail.com
-- **LinkedIn:** [Stanley Sunday]((https://www.linkedin.com/in/stanley1dung)
+- **LinkedIn:** [Stanley Sunday](https://www.linkedin.com/in/stanley1dung)
 
 ---
 Made with ❤️ by the **Serviz Camp Team** 🚀
