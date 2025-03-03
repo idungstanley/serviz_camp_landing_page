@@ -29,12 +29,21 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-   <div className="relative z-10 flex flex-col min-h-screen justify-between bg-white">
-            {/* Navbar */}
-            <Navbar />
-            <main >{children}</main>
-            <Footer />
+        <div className="relative z-40 flex flex-col min-h-screen justify-between bg-white">
+          {/* Navbar */}
+          <Navbar />
+          <div className="w-full h-[700px] absolute top-0 left-0 z-40 inset-0"
+            style={{
+              backgroundImage: "url('/images/overlay.png')",
+              backgroundPosition: "right",
+              backgroundSize: "55% 100%",
+              backgroundRepeat: "no-repeat",
+            }}>
           </div>
+
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );

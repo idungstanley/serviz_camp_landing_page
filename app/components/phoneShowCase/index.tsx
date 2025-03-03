@@ -8,9 +8,9 @@ const MobileAppSection = () => {
     <section className="flex flex-col lg:flex-row items-center justify-between px-4 lg:px-36 py-16 relative">
           {/* Left Content */}
           {/* stars */}
-          <Image src="/images/star.png" alt="star" width={45} height={25} className="absolute top-8 left-[140px]"/>
-      <Image src="/images/star.png" alt="star" width={45} height={25} className="absolute top-[112px] right-[200px]"/>
-      <Image src="/images/star.png" alt="star" width={45} height={25} className="absolute bottom-[100px] left-[420px]"/>
+          <Image src="/images/star.png" alt="star" width={35} height={25} className="absolute top-8 left-[140px] lg:flex hidden"/>
+      <Image src="/images/star.png" alt="star" width={35} height={25} className="absolute top-[112px] right-[200px] lg:flex hidden"/>
+      <Image src="/images/star.png" alt="star" width={35} height={25} className="absolute bottom-[100px] left-[420px] lg:flex hidden"/>
       <div className="text-center lg:text-left max-w-lg">
         <h2 className="text-2xl lg:text-3xl font-semibold text-gray-900">
           Download ServizCamp mobile app

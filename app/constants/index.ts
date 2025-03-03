@@ -82,3 +82,23 @@ export const steps = [
             "Finalize your booking by selecting a convenient date and time, reviewing the total cost, and securely processing the payment.",
     },
 ];
+export const secondProvider = [
+    {
+        stepNumber: 1,
+        title: "Step 1: Register on ServizCamp",
+        description:
+            "Submit all required information and documents.",
+    },
+    {
+        stepNumber: 2,
+        title: "Step 2: Listing",
+        description:
+            "ServizCamp would list you as a provider for the service you offer and users around you can request your service.",
+    },
+    {
+        stepNumber: 3,
+        title: "Step 3: Accept users",
+        description:
+            "Requests and proceed  with completing their jobs and getting paid.",
+    },
+];

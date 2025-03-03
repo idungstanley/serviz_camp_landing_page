@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { faqs } from "@/app/constants";
 import FAQCard from "./components/FaqCard";
 
@@ -18,10 +19,10 @@ const FAQSection = () => {
 
   return (
     <section className="py-12 px-6 md:px-12 bg-white min-h-screen relative z-10">
-      <h2 className="text-start text-2xl font-semibold mb-6 text-[#0C101C]">Frequently Asked Questions</h2>
-      <img src="/images/star.png" alt="star" className="w-[48px] h-[35px] absolute top-3 right-0"/>
-      <img src="/images/star.png" alt="star" className="w-[48px] h-[35px] absolute bottom-[450px] left-[-45px]"/>
-      <img src="/images/star.png" alt="star" className="w-[48px] h-[35px] absolute bottom-0 right-0"/>
+      <Image src="/images/star.png" alt="star" width={35} height={25} className="absolute top-3 right-0  lg:flex hidden"/>
+      <Image src="/images/star.png" alt="star" width={35} height={25} className="absolute bottom-[450px] left-[-45px] lg:flex hidden"/>
+      <Image src="/images/star.png" alt="star" width={35} height={25} className="absolute bottom-0 right-0 lg:flex hidden"/>
+      <Image src="/images/star.png" alt="star" width={35} height={25} className="absolute bottom-0 right-0 lg:flex hidden"/>
       <div className="grid gap-4">
         {groupedFAQs.map((row, rowIndex) => (
           <div key={rowIndex} className="grid grid-cols-1 md:grid-cols-2 gap-4 pb-5">

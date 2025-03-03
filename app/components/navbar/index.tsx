@@ -25,8 +25,8 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`flex justify-between items-center lg:px-[144px] px-4 
-      fixed top-0 left-0 w-full z-50 h-[100px] transition-all 
+      className={`flex justify-between items-center lg:px-20 px-4 
+       top-0 left-0 w-full h-[60px] transition-all 
       ${
         isScrolled
           ? "bg-[#e3f2fa] shadow-md" // Keep solid bg with shadow on scroll
@@ -46,7 +46,7 @@ const Navbar = () => {
             <Link
               key={item.href}
               href={item.href}
-              className={`text-[14px] transition ${
+              className={`text-[14px] cursor-pointer transition ${
                 pathname === item.href ? "text-[#548235] font-semibold" : "text-gray-700 hover:text-[#548235e4]"
               }`}
             >
@@ -57,9 +57,7 @@ const Navbar = () => {
       </div>
 
       {/* Desktop "Book Service" Button */}
-      <div className="max-w-[120px]">
-        <Button href="/book-service" label="Book Service" className="w-full lg:flex hidden" />
-      </div>
+        <Button href="/book-service" label="Book Service" className="w-fit h-8 items-center justify-center z-[9999] flex" />
 
       {/* Mobile Menu Button */}
       <button className="md:hidden text-green-700" onClick={() => setIsOpen(!isOpen)}>
@@ -73,7 +71,7 @@ const Navbar = () => {
             <Link
               key={item.href}
               href={item.href}
-              className={`text-lg transition ${
+              className={`text-lg transition cursor-pointer ${
                 pathname === item.href ? "text-[#548235] font-semibold" : "text-gray-700 hover:text-[#548235ec]"
               }`}
               onClick={() => setIsOpen(false)} // Close menu on click
@@ -83,7 +81,7 @@ const Navbar = () => {
           ))}
 
           {/* Mobile "Book Service" Button */}
-          <Button href="/book-service" label="Book Service" className="w-full" />
+          <Button href="/book-service" label="Book Service" className="w-full z-[9999] cursor-pointer" />
         </div>
       )}
     </nav>
